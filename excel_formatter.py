@@ -70,4 +70,4 @@ for i, section in enumerate(sections, start=1):
     print(f"Section {i} subtotal = {subtotal} → {section['summary_cell']}")
 
 wb.save("samplebook_formatted.xlsx")
-print("\nFormatting done. Book was saved as 'samplebook_formatted.xlsx'")
+print("\nFormatting done")
